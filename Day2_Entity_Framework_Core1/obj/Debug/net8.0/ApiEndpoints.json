@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "Day2_Entity_Framework_Core1.Controllers.DepartmentController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDTO",
+        "Type": "Day2_Entity_Framework_Core1.Model.DepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Day2_Entity_Framework_Core1.Controllers.EmployeeController",
+    "Method": "EmployeeRegistration",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDTO",
+        "Type": "Day2_Entity_Framework_Core1.Model.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Day2_Entity_Framework_Core1.Controllers.EmployeeController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Day2_Entity_Framework_Core1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Day2_Entity_Framework_Core1.WeatherForecast, Day2_Entity_Framework_Core1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
